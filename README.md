@@ -1,0 +1,1 @@
+This is a customized [dashing](http://shopify.github.com/dashing) dashboard for [RookieOven](http://www.rookieoven.com) containing a set of widget jobs for displaying useful info in the Coworking Space.

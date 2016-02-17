@@ -1,0 +1,14 @@
+<div class="widget-title" data-bind="widget_title | raw"></div>
+<div class="updated-at" data-bind="updatedAtMessage"></div>
+
+<div>
+	<h1 class="title-current">RIGHT NOW</h1>
+  	<div class="temp-current" data-bind="current_temp | raw"></div>
+  	<div class="summary-current" data-bind="current_desc | raw"></div>
+</div>
+
+<div style="margin-top: 10px">
+	<h1 class="title">LATER</h1>
+	<canvas id="later_icon" class="forecast-icon" width="25px" height="25px"></canvas>
+	<div class="summary" data-bind="later_desc | raw"></div>
+</div>

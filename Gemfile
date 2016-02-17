@@ -1,0 +1,9 @@
+source :rubygems
+gem 'dotenv'
+gem 'dashing'
+gem 'nokogiri'
+gem 'twitter'
+gem 'htmlentities'
+gem 'ruby-trello'
+gem 'foursquare2'
+gem 'sonos'
