@@ -14,7 +14,7 @@ forecast_location_long = "4.3224950"
 # "uk" - SI w. windSpeed in mph
 forecast_units = "uk"
 
-SCHEDULER.every '30m', :first_in => 0 do |job|
+SCHEDULER.every '5m', :first_in => 0 do |job|
   http = Net::HTTP.new("api.forecast.io", 443)
   http.use_ssl = true
   http.verify_mode = OpenSSL::SSL::VERIFY_PEER
